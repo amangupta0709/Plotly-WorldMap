@@ -94,8 +94,7 @@ x = pg.Figure(data=[data], layout=layout)
 # In[21]:
 
 
-po.plot(x, filename='index.html')
-
+po.plot(x, include_plotlyjs='cdn',filename='index.html')
 
 
 
